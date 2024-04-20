@@ -11,7 +11,7 @@ from typing import Any
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
-    """reads yaml file and returns
+    """reads yaml file and returns ConfigBox/raises error
 
     Args:
         path_to_yaml (str): path like input
