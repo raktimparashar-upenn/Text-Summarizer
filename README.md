@@ -18,7 +18,7 @@
 Clone the repository
 
 ```bash
-https://github.com/aarjayparashar/End-to-end-Text-Summarization
+https://github.com/raktimparashar-upenn/Text-Summarizer
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -98,7 +98,7 @@ Email: aarjayparashar@gmail.com
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optional
 
 	sudo apt-get update -y
 
@@ -128,4 +128,4 @@ Email: aarjayparashar@gmail.com
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = text-s
